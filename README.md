@@ -4,7 +4,7 @@ My career spans second-line compliance testing, KYC/CDD oversight, underwriting 
 
 Known for streamlining compliance operations and driving remediation success, I partner cross-functionally to ensure adherence to evolving regulatory requirements while optimizing performance.
 
-My experience using data to identify compliance and fraud risks has led me to pursue data science, with the goal of developing more proactive approaches to risk detection and prevention
+My experience using data to identify compliance and fraud risks has led me to pursue data science, with the goal of developing more proactive approaches to risk detection and prevention.
 <!--
 **rschultz4118/rschultz4118** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
