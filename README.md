@@ -1,5 +1,10 @@
-## Hi there 👋
+I’m a Certified Fraud Examiner (CFE) with 8+ years of experience in regulatory compliance, fraud investigations, and program management in fintech and consumer credit environments.
 
+My career spans second-line compliance testing, KYC/CDD oversight, underwriting audits, and implementing risk-based controls across high-impact programs. I’ve led regulatory impact assessments, system implementation testing, and vendor coordination initiatives, ensuring alignment with TILA, FDCPA, ECOA, BSA/AML, and GLBA standards.
+
+Known for streamlining compliance operations and driving remediation success, I partner cross-functionally to ensure adherence to evolving regulatory requirements while optimizing performance.
+
+My experience using data to identify compliance and fraud risks has led me to pursue data science, with the goal of developing more proactive approaches to risk detection and prevention
 <!--
 **rschultz4118/rschultz4118** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
