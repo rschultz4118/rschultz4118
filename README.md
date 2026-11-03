@@ -20,20 +20,6 @@ My current areas of focus include:
 * **Software Development:** Improving my ability to design, test, debug, and document programs.
 
 My goal is to apply these skills to develop automated monitoring tools, identify emerging risks, and improve decision-making within financial institutions.
-## Skills Currently in Development
-
-As a Data Science student at Oregon State University, I am continuing to develop my technical and analytical skills while building on my professional experience in financial services, risk management, and regulatory compliance.
-
-My current areas of focus include:
-
-* **Python Programming:** Strengthening my understanding of object-oriented programming, classes, methods, and writing reusable code.
-* **SQL and Data Analysis:** Improving my ability to write complex queries, join datasets, and analyze large volumes of financial data.
-* **Git and GitHub:** Learning version control, repository management, and documentation practices.
-* **Data Visualization:** Developing my ability to communicate analytical findings through dashboards and visual reporting.
-* **Mathematics:** Building a stronger foundation in mathematical concepts that support statistics and data analysis.
-* **Software Development:** Improving my ability to design, test, debug, and document programs.
-
-My goal is to apply these skills to develop automated monitoring tools, identify emerging risks, and improve decision-making within financial institutions.
 
 <!--
 **rschultz4118/rschultz4118** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
