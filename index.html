@@ -3,41 +3,181 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Professional portfolio featuring financial services risk, fraud prevention, compliance, and analytics skills.">
+  <meta name="description" content="Data Science portfolio featuring financial services risk, fraud prevention, regulatory compliance, and analytics.">
   <title>Professional Portfolio | Risk, Fraud & Analytics</title>
+
   <style>
-    :root { color-scheme: light; --navy:#14253c; --blue:#24618a; --bg:#f5f7fa; --text:#273447; --border:#dfe7ef; }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body { margin:0; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background:var(--bg); color:var(--text); line-height:1.65; }
-    header { background:linear-gradient(120deg, #14253c, #285c7c); color:white; padding:64px 24px 56px; }
-    .wrap { max-width:900px; margin:auto; }
-    .eyebrow { text-transform:uppercase; letter-spacing:.16em; font-size:.8rem; opacity:.85; font-weight:700; }
-    h1 { font-size:clamp(2rem,5vw,3.2rem); line-height:1.2; margin:12px 0; }
-    header p { max-width:660px; font-size:1.1rem; opacity:.94; }
-    nav { background:#fff; border-bottom:1px solid var(--border); }
-    nav .wrap { display:flex; gap:24px; flex-wrap:wrap; padding:14px 24px; }
-    a { color:var(--blue); }
-    nav a { font-weight:650; text-decoration:none; }
-    nav a:hover, nav a:focus { text-decoration:underline; }
-    main { padding:32px 24px 56px; }
-    section { background:white; border:1px solid var(--border); border-radius:14px; padding:28px 32px; margin-bottom:22px; box-shadow:0 5px 20px rgba(20,37,60,.035); }
-    h2 { color:var(--navy); margin-top:0; font-size:1.5rem; }
-    .chips { display:flex; flex-wrap:wrap; gap:10px; padding:0; list-style:none; }
-    .chips li { background:#eaf2f8; color:#173f60; padding:8px 13px; border-radius:8px; font-weight:550; }
-    .note { border-left:4px solid #4c87ad; padding-left:16px; }
-    footer { text-align:center; padding:24px; color:#59677a; font-size:.9rem; }
-    @media (max-width:600px) { section { padding:22px; } header { padding-top:48px; } }
+    :root {
+      color-scheme: light;
+      --navy: #14253c;
+      --blue: #24618a;
+      --bg: #f5f7fa;
+      --text: #273447;
+      --border: #dfe7ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    header {
+      background: linear-gradient(120deg, #14253c, #285c7c);
+      color: white;
+      padding: 64px 24px 56px;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: .8rem;
+      opacity: .85;
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1.2;
+      margin: 12px 0;
+    }
+
+    header p {
+      max-width: 660px;
+      font-size: 1.1rem;
+      opacity: .94;
+    }
+
+    nav {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav .wrap {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      padding: 14px 24px;
+    }
+
+    a {
+      color: var(--blue);
+    }
+
+    nav a {
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 32px 24px 56px;
+    }
+
+    section {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 32px;
+      margin-bottom: 22px;
+      box-shadow: 0 5px 20px rgba(20,37,60,.035);
+    }
+
+    h2 {
+      color: var(--navy);
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      color: var(--blue);
+      margin-bottom: 10px;
+      font-size: 1.15rem;
+    }
+
+    .skills-list {
+      padding-left: 22px;
+    }
+
+    .skills-list li {
+      margin-bottom: 10px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .chips li {
+      background: #eaf2f8;
+      color: #173f60;
+      padding: 8px 13px;
+      border-radius: 8px;
+      font-weight: 550;
+    }
+
+    .note {
+      border-left: 4px solid #4c87ad;
+      padding-left: 16px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #59677a;
+      font-size: .9rem;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        padding: 22px;
+      }
+
+      header {
+        padding-top: 48px;
+      }
+    }
   </style>
 </head>
+
 <body>
+
   <header>
     <div class="wrap">
-      <div class="eyebrow">Professional Portfolio</div>
+      <div class="eyebrow">Data Science & Professional Portfolio</div>
+
       <h1>Risk, Fraud &amp; Analytics</h1>
-      <p>Financial services experience meets practical data analysis, process improvement, and automation.</p>
+
+      <p>
+        Combining financial services experience with
+        data science, analytics, process improvement,
+        and automation.
+      </p>
     </div>
   </header>
+
   <nav aria-label="Main navigation">
     <div class="wrap">
       <a href="#about">About</a>
@@ -45,26 +185,165 @@
       <a href="#projects">Projects</a>
     </div>
   </nav>
+
   <main class="wrap">
+
+    <!-- PROFESSIONAL BIO -->
+
     <section id="about">
       <h2>About Me</h2>
-      <p>I am a financial services professional with experience in compliance monitoring and testing, internal audit, risk assessments, and fraud prevention. I enjoy solving complex problems, improving processes, and turning data into useful insights.</p>
-      <p>I am currently pursuing a Data Science degree at Oregon State University to build on my professional experience with stronger programming, analytics, and automation skills. My long-term goal is to help financial institutions make better decisions and manage risk more effectively.</p>
+
+      <p>
+        I'm a Certified Fraud Examiner (CFE) with over eight
+        years of experience in financial services, regulatory
+        compliance, fraud investigations, and program management.
+        My professional background includes compliance monitoring
+        and testing, internal audit, risk assessments, and
+        evaluating business processes to identify weaknesses
+        and opportunities for improvement.
+      </p>
+
+      <p>
+        Throughout my career, I've worked with regulatory
+        requirements, large datasets, and complex business
+        processes. My interest in data science developed as
+        I began recognizing opportunities to use programming
+        and automation to improve work that traditionally
+        required extensive manual review. I've found that
+        combining analytical tools with industry knowledge
+        can make risk identification more efficient and help
+        organizations make better decisions.
+      </p>
+
+      <p>
+        I'm currently pursuing a degree in Data Science at
+        Oregon State University, where I'm strengthening my
+        skills in Python, SQL, mathematics, data analysis,
+        and software development. I'm particularly interested
+        in applying these skills to financial risk management,
+        fraud detection, and regulatory compliance.
+      </p>
+
+      <p>
+        My professional experience has also taught me the
+        importance of communication, collaboration, and
+        understanding the business implications of analytical
+        findings. I want to continue building on that
+        foundation by developing technical solutions that
+        are practical, reliable, and useful to the people
+        making decisions.
+      </p>
+
+      <p>
+        Ultimately, my goal is to bridge the gap between
+        data analytics and business operations, helping
+        financial institutions use information more effectively.
+      </p>
     </section>
+
+    <!-- SKILLS -->
+
     <section id="skills">
       <h2>Skills</h2>
+
+      <h3>Technical and Analytical Skills</h3>
+
+      <ul class="skills-list">
+        <li>
+          <strong>Python Programming:</strong>
+          Developing skills in object-oriented programming,
+          classes, methods, recursion, debugging, and
+          writing reusable code.
+        </li>
+
+        <li>
+          <strong>SQL and Data Analysis:</strong>
+          Experience querying, joining, filtering, and
+          analyzing financial data to identify trends,
+          inconsistencies, and potential risks.
+        </li>
+
+        <li>
+          <strong>Data Visualization:</strong>
+          Creating dashboards and reports that communicate
+          analytical findings and support business decisions.
+        </li>
+
+        <li>
+          <strong>Microsoft Excel:</strong>
+          Using formulas, data analysis, and reporting tools
+          to evaluate information and improve processes.
+        </li>
+
+        <li>
+          <strong>Git and GitHub:</strong>
+          Developing skills in version control, repository
+          management, and documenting technical work.
+        </li>
+
+        <li>
+          <strong>Data Quality and Validation:</strong>
+          Identifying data inconsistencies, reviewing
+          exceptions, and evaluating accuracy and completeness.
+        </li>
+
+        <li>
+          <strong>Mathematics and Statistics:</strong>
+          Building a stronger mathematical foundation
+          to support data science, statistical analysis,
+          and modeling.
+        </li>
+
+        <li>
+          <strong>Process Automation:</strong>
+          Applying programming and analytical tools to
+          reduce repetitive work and improve efficiency.
+        </li>
+      </ul>
+
+      <h3>Professional Skills</h3>
+
       <ul class="chips">
-        <li>Python</li><li>SQL</li><li>Excel</li><li>Power BI</li>
-        <li>Data Analysis</li><li>Process Automation</li><li>Compliance Monitoring &amp; Testing</li>
-        <li>Risk Assessment</li><li>Fraud Prevention</li><li>Internal Audit</li>
-        <li>Cross-functional Collaboration</li><li>Reporting &amp; Communication</li>
+        <li>Risk and Regulatory Compliance</li>
+        <li>Fraud Examination (CFE)</li>
+        <li>Program Management</li>
+        <li>Compliance Monitoring &amp; Testing</li>
+        <li>Internal Audit</li>
+        <li>Communication &amp; Collaboration</li>
+        <li>Problem-Solving</li>
+        <li>Cross-functional Collaboration</li>
       </ul>
     </section>
+
+    <!-- PROJECTS -->
+
     <section id="projects">
       <h2>Projects</h2>
-      <p class="note"><strong>Projects in progress.</strong> This section will feature selected academic and portfolio projects applying data analytics and automation to financial services problems.</p>
+
+      <p class="note">
+        <strong>Projects Coming Soon.</strong>
+        As I progress through my Data Science degree,
+        I plan to add projects demonstrating my skills
+        in Python, SQL, data analysis, and visualization.
+      </p>
+
+      <p>
+        My primary areas of interest include financial
+        risk management, fraud detection, regulatory
+        compliance, and process automation. Future
+        portfolio projects will focus on practical
+        applications of data science using publicly
+        available or synthetic datasets.
+      </p>
     </section>
+
   </main>
-  <footer>Portfolio website • Built for ongoing learning and professional development</footer>
+
+  <footer>
+    Data Science Portfolio &bull;
+    Oregon State University &bull;
+    Professional Development
+  </footer>
+
 </body>
 </html>
